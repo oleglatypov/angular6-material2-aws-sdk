@@ -19,5 +19,5 @@ cache:
     - node_modules
 env:
   global:
-    - GH_REF: github.com/stbui/angular-material-app.git
+    - GH_REF: github.com/oleglatypov/angular6-material2-aws-sd.git
 
