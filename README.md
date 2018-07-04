@@ -1,40 +1,40 @@
-# 中后台前端应用框架 [![国内demo](https://img.shields.io/badge/%e5%9b%bd%e5%86%85-demo-brightgreen.svg?style=flat-square)](http://stbui.oss-cn-beijing.aliyuncs.com/angular-material-app/index.html)  [![国外demo](https://img.shields.io/badge/%e5%9b%bd%e5%a4%96-demo-brightgreen.svg?style=flat-square)](https://surgeon-canary-67612.netlify.com/)  [![github](https://img.shields.io/badge/github-demo-brightgreen.svg?style=flat-square)](https://stbui.github.io/angular-material-app/) [![国外doc](https://img.shields.io/badge/%e5%9b%bd%e5%a4%96-doc-brightgreen.svg?style=flat-square)](https://translator-rhinoceros-87537.netlify.com/)
+### Front-end application framework [![Domestic demo](https://img.shields.io/badge/%e5%9b%bd%e5%86%85-demo-brightgreen.svg?style=flat-square) ](http://stbui.oss-cn-beijing.aliyuncs.com/angular-material-app/index.html) [![foreign demo](https://img.shields.io/badge/%e5% 9b%bd%e5%a4%96-demo-brightgreen.svg?style=flat-square)](https://surgeon-canary-67612.netlify.com/) [![github](https://img .shields.io/badge/github-demo-brightgreen.svg?style=flat-square)](https://oleglatypov.github.io/angular-material-app/) [![Foreign doc](https:/ /img.shields.io/badge/%e5%9b%bd%e5%a4%96-doc-brightgreen.svg?style=flat-square)](https://translator-rhinoceros-87537.netlify.com/ )
 
 <p align="center">
-  <a href="./" target="blank"><img src="src/assets/logo.png" alt="stbui Logo" width="128" /></a>
+  <a href="./" target="blank"><img src="src/assets/logo.png" alt="stbui Logo" width="128" /></a>
 </p>
 
-基于最新`Angular 6`框架与`Material 2`技术的企业级中后台前端应用框架，涵盖了大量的常用组件和基础功能，您可以快速开发各种MIS系统，如CMS、OA、CRM、ERP、POS等，最大程度上帮助企业节省时间成本和费用开支。
+Based on the latest `Angular 6` framework and `Material 2` technology, the enterprise-level mid- and back-end front-end application framework covers a large number of common components and basic functions. You can quickly develop various MIS systems, such as CMS, OA, CRM, ERP, POS, etc., to the greatest extent help companies save time and expenses.
 
 [![Travis](https://travis-ci.org/stbui/angular-material-app.svg?branch=master)](https://travis-ci.org/stbui/angular-material-app)
-[![Docker Build Status](https://img.shields.io/docker/build/stbui/angular-material-app.svg?style=flat-square)](https://hub.docker.com/r/stbui/angular-material-app/)
-[![Dependency Status](https://img.shields.io/david/stbui/angular-material-app.svg?style=flat-square)](https://david-dm.org/stbui/angular-material-app)
-[![devDependency Status](https://img.shields.io/david/stbui/angular-material-app.svg?style=flat-square)](https://david-dm.org/stbui/angular-material-app?type=dev)
-[![Join the chat at https://gitter.im/angular-material-app](https://badges.gitter.im/stbui/angular-material-app.svg)](https://gitter.im/angular-material-app/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Docker Build Status](https://img.shields.io/docker/build/stbui/angular-material-app.svg?style=flat-square)](https://hub.docker.com/ r/stbui/angular-material-app/)
+[![Dependency Status](https://img.shields.io/david/stbui/angular-material-app.svg?style=flat-square)](https://david-dm.org/stbui/angular -material-app)
+[![devDependency Status](https://img.shields.io/david/stbui/angular-material-app.svg?style=flat-square)](https://david-dm.org/stbui/angular -material-app?type=dev)
+[![Join the chat at https://gitter.im/angular-material-app](https://badges.gitter.im/stbui/angular-material-app.svg)](https://gitter. Im/angular-material-app/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 [![Powered_by](https://img.shields.io/badge/Powered_by-stbui-green.svg?style=flat)](https://github.com/stbui/angular-material-app)
 
 
-### Plaform 
+### Plaform
 
 [![Angular](https://img.shields.io/badge/Angular-6.0.0-brightgreen.svg?style=flat-square)](https://github.com/angular/angular)
-[![Angular-cli](https://img.shields.io/badge/Angular.cli-6.0.0-brightgreen.svg?style=square)](https://github.com/angular/angular-cli)
+[![Angular-cli](https://img.shields.io/badge/Angular.cli-6.0.0-brightgreen.svg?style=square)](https://github.com/angular/angular- Cli)
 [![Angular Material 2](https://img.shields.io/badge/Material%202-6.0.0-brightgreen.svg?style=square)](https://github.com/angular/material2)
-[![Flex-Layout](https://img.shields.io/badge/Flex.Layout-6.0.0-brightgreen.svg?style=square)](https://github.com/angular/flex-layout)
-[![Angular FireBase](https://img.shields.io/badge/Firebase-5.0.0.rc.9-brightgreen.svg?style=square)](https://github.com/angular/angularfire2)
+[![Flex-Layout](https://img.shields.io/badge/Flex.Layout-6.0.0-brightgreen.svg?style=square)](https://github.com/angular/flex- Layout)
+[![Angular FireBase](https://img.shields.io/badge/Firebase-5.0.0.rc.9-brightgreen.svg?style=square)](https://github.com/angular/angularfire2 )
 
 
 ### Feature
 
-- 基于 Material Design 精心设计
-- 多种颜色方案，有多个预定义的配色方案
-- Flex Layout 强大的布局，并支持响应式设计
-- 组件丰富，提炼后台应用的典型页面和场景
-- 模块代码，添加和删除非常轻松
-- 渐进式应用(PWA)，更接近原生应用体验
-- 支持 docker 构建镜像， 急速部署，轻松使用
-- 支持 electron 构建桌面应用
-- 接入 firebase， 构建应用提供良好的用户体验
-- 不定期更新，使用前端前沿技术开发新功能
+- Designed based on Material Design
+- Multiple color schemes with multiple predefined color schemes
+- Flex Layout powerful layout and support for responsive design
+- Rich components, refining typical pages and scenes for background apps
+- Module code, adding and removing is very easy
+- Progressive application (PWA), closer to the native app experience
+- Support docker to build images, rapid deployment, easy to use
+- Support for electron building desktop applications
+- Connect to firebase, build apps to provide a good user experience
+- Irregular updates, using front-end leading edge technology to develop new features
 
 ![demo image](src/assets/images-demo/20170802104620.png)
 
@@ -42,19 +42,19 @@
 ### Get Start
 
 ```
-git clone --depth=1 https://github.com/stbui/angular-material-app.git
-cd angular-material-app
-npm install
+Git clone --depth=1 https://github.com/oleglatypov/angular6-material2-aws-sdk.git
+cd angular6-material2-aws-sdk
+mpm install
 npm run start
 ```
 
-打开你的浏览器，访问
+Open your browser and access
 ```
-http://127.0.0.1:4200
+Http://127.0.0.1:4200
 ```
 
 ### Pubilsh
 
 ```
-npm run build
+Npm run build
 ```
