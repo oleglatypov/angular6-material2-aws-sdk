@@ -1,6 +1,5 @@
-
 #!/usr/bin/env node
-
+'use strict';
 const path = require('path');
 const fs = require('fs');
 const child_process = require('child_process'); // eslint-disable-line camelcase
@@ -108,10 +107,10 @@ process.on('unhandledRejection', reason => console.log(reason));
   if (shouldPublish) publish();
 
   await askUnskippableQuestion(
-    `Sweet! Now go to https://github.com/stbui/angular-material-app/releases and copy a changelog in there`
+    `Sweet! Now go to https://github.com/oleglatypov/angular6-material2-aws-sdk/releases and copy a changelog in there`
   );
 
-  console.log(`\n✔ Deployment of angular-material-app ${nextVersion} complete!\n`);
+  console.log( `\n✔ Deployment of angular6-material2-aws-sdk ${nextVersion} complete!\n` );
 })();
 
 async function askUnskippableQuestion(question) {

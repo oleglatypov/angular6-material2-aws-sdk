@@ -28,7 +28,7 @@ export class PerformanceComponent implements OnInit {
     datas: [
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
@@ -36,7 +36,7 @@ export class PerformanceComponent implements OnInit {
       },
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
@@ -44,7 +44,7 @@ export class PerformanceComponent implements OnInit {
       },
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
@@ -52,7 +52,7 @@ export class PerformanceComponent implements OnInit {
       },
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
@@ -60,7 +60,7 @@ export class PerformanceComponent implements OnInit {
       },
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
@@ -68,14 +68,14 @@ export class PerformanceComponent implements OnInit {
       },
       {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',
         black_waiting_time: '545'
       }, {
         id: '1',
-        url: 'http://127.0.0.1:4200/stbui.bundle.css',
+        url: 'http://127.0.0.1:4200/mnews.bundle.css',
         dns: '225',
         response: '153',
         load: '465',

@@ -1,16 +1,16 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Component, ViewEncapsulation, ChangeDetectionStrategy, Inject } from '@angular/core';
-import { STBUI_NOTIFICATION_DATA } from './notification.config';
+import { ChangeDetectionStrategy, Component, Inject, ViewEncapsulation } from '@angular/core';
+import { mnews_NOTIFICATION_DATA } from './notification.config';
 import { NotificationRef } from './notification.ref';
 import { NotificationAnimations } from './notification.animation';
 
 @Component({
   moduleId: module.id,
-  selector: 'stbui-notification',
+  selector: 'mnews-notification',
   templateUrl: './notification.component.html',
   styleUrls: ['./notification.component.scss'],
   encapsulation: ViewEncapsulation.None,
@@ -26,7 +26,7 @@ export class NotificationComponent {
 
   constructor(
     public notificationRef: NotificationRef<NotificationComponent>,
-    @Inject(STBUI_NOTIFICATION_DATA) data: any
+    @Inject(mnews_NOTIFICATION_DATA) data: any
   ) {
     this.data = data;
   }

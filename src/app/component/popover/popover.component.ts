@@ -1,23 +1,16 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import {
-  Component,
-  ElementRef,
-  ViewChild,
-  TemplateRef,
-  AfterContentInit
-} from '@angular/core';
-import { FocusTrap, FocusTrapFactory } from '@angular/cdk/a11y';
+import { AfterContentInit, Component, ElementRef, TemplateRef, ViewChild } from '@angular/core';
 
 @Component({
   moduleId: module.id,
-  selector: 'stbui-popover',
+  selector: 'mnews-popover',
   templateUrl: './popover.component.html',
   styleUrls: ['./popover.component.scss'],
-  exportAs: 'stbuiPopover'
+  exportAs: 'mnewsPopover'
 })
 export class PopoverComponent implements AfterContentInit {
   @ViewChild(TemplateRef) templateRef: TemplateRef<any>;

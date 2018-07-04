@@ -1,11 +1,11 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { ViewContainerRef, InjectionToken } from '@angular/core';
+import { InjectionToken } from '@angular/core';
 
-export const STBUI_AMAP_DATA = new InjectionToken<any>('StbuiAmapData');
+export const mnews_AMAP_DATA = new InjectionToken<any>('mnewsAmapData');
 
 export class AmapConfig {
   apiKey?: string;

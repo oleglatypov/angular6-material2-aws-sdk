@@ -1,13 +1,11 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-
-import { Upload } from './file-upload.model';
 
 @Injectable()
 export class FileUploadService {

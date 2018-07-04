@@ -30,8 +30,8 @@
 
   <div fxFlex class="manage-sidenav-content">
 
-    <div class="stbui-table-main mat-elevation-z2">
-      <div class="stbui-table-toolbar" fxLayout="row" fxLayoutAlign="start center">
+    <div class="mnews-table-main mat-elevation-z2">
+      <div class="mnews-table-toolbar" fxLayout="row" fxLayoutAlign="start center">
         <div class="start-wrapper" fxLayout="row" fxLayoutAlign="start center" fxFlex="51px">
           <span></span>
         </div>
@@ -54,8 +54,8 @@
 
       </div>
 
-      <div class="stbui-table-list">
-        <div class="stbui-table" fxLayout="row" *ngFor="let data of tables.datas" (click)="onUpdateContact(data)">
+      <div class="mnews-table-list">
+        <div class="mnews-table" fxLayout="row" *ngFor="let data of tables.datas" (click)="onUpdateContact(data)">
           <div class="start-wrapper" fxLayout="row" fxLayoutAlign="start center" fxFlex="51px">
             <img [src]="data.avatar" alt="avatar" class="avatar">
           </div>

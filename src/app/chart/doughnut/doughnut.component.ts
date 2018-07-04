@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'stbui-chart-doughnut',
+  selector: 'mnews-chart-doughnut',
   templateUrl: './doughnut.component.html',
   styleUrls: ['./doughnut.component.scss']
 })

@@ -1,14 +1,14 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Directive, HostListener, Output, EventEmitter } from '@angular/core';
+import { Directive, EventEmitter, HostListener, Output } from '@angular/core';
 import { FileUploadService } from './file-upload.service';
 import { Upload } from './file-upload.model';
 
 @Directive({
-  selector: '[stbuiFileDrop], [stbFileDrop]'
+  selector: '[mnewsFileDrop], [stbFileDrop]'
 })
 export class FileUploadDropDirective {
   @Output() dropped = new EventEmitter();
@@ -23,7 +23,7 @@ export class FileUploadDropDirective {
 }
 
 @Directive({
-  selector: '[stbFileUpload],[stbuiFileUpload]'
+  selector: '[stbFileUpload],[mnewsFileUpload]'
 })
 export class FileUploadDirective {
   public currentUpload: Upload;

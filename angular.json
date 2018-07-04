@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-app": {
+    "angular6-material2-aws-sdk": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "stbui",
+      "prefix": "mnews",
       "schematics": {
         "@schematics/angular:component": {
           "styleext": "scss"
@@ -30,7 +30,10 @@
               { "input": "node_modules/normalize.css/normalize.css", "bundleName": "lib" },
               { "input": "node_modules/material-design-icons/iconfont/material-icons.css", "bundleName": "lib" },
               { "input": "node_modules/quill/dist/quill.snow.css", "bundleName": "lib" },
-              { "input": "src/styles.scss", "bundleName": "stbui" }
+              {
+                "input": "src/styles.scss",
+                "bundleName": "mnews"
+              }
             ],
             "scripts": []
           },
@@ -94,27 +97,27 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-material-app:build"
+            "browserTarget": "angular6-material2-aws-sdk:build"
           },
           "configurations": {
             "development": {
-              "browserTarget": "angular-material-app:build:development"
+              "browserTarget": "angular6-material2-aws-sdk:build:development"
             },
             "github": {
-              "browserTarget": "angular-material-app:build:github"
+              "browserTarget": "angular6-material2-aws-sdk:build:github"
             },
             "ngsw": {
-              "browserTarget": "angular-material-app:build:ngsw"
+              "browserTarget": "angular6-material2-aws-sdk:build:ngsw"
             },
             "production": {
-              "browserTarget": "angular-material-app:build:production"
+              "browserTarget": "angular6-material2-aws-sdk:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-material-app:build"
+            "browserTarget": "angular6-material2-aws-sdk:build"
           }
         },
         "test": {
@@ -148,7 +151,7 @@
         }
       }
     },
-    "angular-material-app-e2e": {
+    "angular6-material2-aws-sdk-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -156,7 +159,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-material-app:serve"
+            "devServerTarget": "angular6-material2-aws-sdk:serve"
           }
         },
         "lint": {
@@ -171,5 +174,5 @@
       }
     }
   },
-  "defaultProject": "angular-material-app"
+  "defaultProject": "angular6-material2-aws-sdk"
 }

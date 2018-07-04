@@ -1,7 +1,7 @@
 import { Component, ElementRef, HostListener, Inject } from '@angular/core';
 
 @Component({
-  selector: 'stbui-toolbar-notification',
+  selector: 'mnews-toolbar-notification',
   templateUrl: './toolbar-notification.component.html',
   styleUrls: ['./toolbar-notification.component.scss']
 })

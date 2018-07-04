@@ -1,6 +1,6 @@
 ### 高德地图
 ```ts
-<stbui-amap></stbui-amap>
+<mnews-amap></mnews-amap>
 ```
 
 ### 官方JS API 

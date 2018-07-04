@@ -1,18 +1,18 @@
 ### Popover
 
 ```
-<stbui-popover #popover="stbuiPopover">
-  <stbui-github-button></stbui-github-button>
-</stbui-popover>
+<mnews-popover #popover="mnewsPopover">
+  <mnews-github-button></mnews-github-button>
+</mnews-popover>
 ```
 
 ```
 <button mat-icon-button [popoverTriggerFor]="popover">
   <mat-icon>grade</mat-icon>
 </button>
-<stbui-popover #popover>
-  <stbui-github-button></stbui-github-button>
-</stbui-popover>
+<mnews-popover #popover>
+  <mnews-github-button></mnews-github-button>
+</mnews-popover>
 ```
 
 horizontalPosition

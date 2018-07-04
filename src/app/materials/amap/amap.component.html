@@ -1,7 +1,7 @@
 <mat-card>
   <mat-card-title>高德地图</mat-card-title>
   <mat-card-content>
-    <stbui-amap></stbui-amap>
+    <mnews-amap></mnews-amap>
   </mat-card-content>
 </mat-card>
 
@@ -18,6 +18,6 @@
 
     <button mat-raised-button color="primary" (click)="view()">查看</button>
 
-    <stbui-amap *ngIf="isView" [lat]="lat" [lng]="lng"></stbui-amap>
+    <mnews-amap *ngIf="isView" [lat]="lat" [lng]="lng"></mnews-amap>
   </mat-card-content>
 </mat-card>

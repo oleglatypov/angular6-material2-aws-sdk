@@ -1,10 +1,10 @@
-import { Component, OnInit, Input, HostBinding, ViewEncapsulation } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Component, HostBinding, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import { NavigationService } from '../navigation.service';
 import { NavigationAnimation } from '../navigation.animation';
 
 @Component({
-  selector: 'stbui-nav-collapse',
+  selector: 'mnews-nav-collapse',
   templateUrl: './nav-collapse.component.html',
   styleUrls: ['./nav-collapse.component.scss'],
   animations: NavigationAnimation,

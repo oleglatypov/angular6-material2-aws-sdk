@@ -2,5 +2,5 @@
 
 # Usage
 ```
-<stbui-file-upload></stbui-file-upload>
+<mnews-file-upload></mnews-file-upload>
 ```

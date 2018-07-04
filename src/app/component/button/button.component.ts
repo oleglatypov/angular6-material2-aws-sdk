@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'stbui-button',
+  selector: 'mnews-button',
   template: ''
 
 })

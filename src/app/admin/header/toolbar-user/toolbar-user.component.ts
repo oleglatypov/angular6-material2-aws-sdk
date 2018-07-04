@@ -1,9 +1,9 @@
-import { Component, OnInit, ElementRef, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 import { AuthService } from '../../../core/auth.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'stbui-toolbar-user',
+  selector: 'mnews-toolbar-user',
   templateUrl: './toolbar-user.component.html',
   styleUrls: ['./toolbar-user.component.scss']
 })

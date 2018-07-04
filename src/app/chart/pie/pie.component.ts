@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'stbui-chart-pie',
+  selector: 'mnews-chart-pie',
   templateUrl: './pie.component.html',
   styleUrls: ['./pie.component.scss']
 })

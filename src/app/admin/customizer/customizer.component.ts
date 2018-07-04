@@ -3,7 +3,7 @@ import { ConfigService } from '../../core/config.service';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'stbui-customizer',
+  selector: 'mnews-customizer',
   templateUrl: './customizer.component.html',
   styleUrls: ['./customizer.component.scss']
 })

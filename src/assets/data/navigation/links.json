@@ -6,10 +6,10 @@
   "data": [
     {
       "id": 1,
-      "title": "angular-material-app",
-      "link": "https://github.com/stbui/angular-material-app",
+      "title": "angular6-material2-aws-sdk",
+      "link": "https://github.com/oleglatypov/angular6-material2-aws-sdk",
       "description": "基于最新Angular 5框架与Material 2技术的企业级通用管理系统快速开发框架",
-      "link_github": "https://github.com/stbui/angular-material-app",
+      "link_github": "https://github.com/oleglatypov/angular6-material2-aws-sdk",
       "tag": "",
       "image_link": "",
       "sort_order": 1,

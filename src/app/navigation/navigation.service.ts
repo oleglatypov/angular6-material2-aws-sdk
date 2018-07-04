@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
-import { BehaviorSubject } from 'rxjs';
 import { localStorageDb } from './localStorageDb';
 
 @Injectable()
@@ -79,7 +78,7 @@ export class NavigationService {
    */
   syncGithubNavigations() {
     const url =
-      'https://gist.githubusercontent.com/stbui/f68385d17d5d10e8db58f749297e68fe/raw/61ced92c95c17bf8acb6220255662cdc53cad6fd/navigation.json';
+      'https://gist.githubusercontent.com/oleglatypov/f68385d17d5d10e8db58f749297e68fe/raw/61ced92c95c17bf8acb6220255662cdc53cad6fd/navigation.json';
 
     return this.http.get(url);
   }

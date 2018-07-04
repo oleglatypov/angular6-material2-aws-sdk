@@ -1,13 +1,13 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
- * https://github.com/stbui
+ * Copyright mnews All Rights Reserved.
+ * https://github.com/oleglatypov
  */
 
 import { Component, ContentChild, Input, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'stbui-sidenav-layout-header',
+  selector: 'mnews-sidenav-layout-header',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -26,7 +26,7 @@ export class SidenavLayoutHeaderComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-sidenav-layout-toolbar',
+  selector: 'mnews-sidenav-layout-toolbar',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -42,7 +42,7 @@ export class SidenavLayoutToolbarComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-sidenav-layout-content',
+  selector: 'mnews-sidenav-layout-content',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -59,11 +59,11 @@ export class SidenavLayoutContentComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-sidenav-layout-side',
+  selector: 'mnews-sidenav-layout-side',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
-    class: 'stbui-sidenav-layout-side'
+    class: 'mnews-sidenav-layout-side'
   }
 })
 export class SidenavLayoutSideComponent implements OnInit {
@@ -75,7 +75,7 @@ export class SidenavLayoutSideComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-sidenav-layout, stbui-sidenav-layout-container',
+  selector: 'mnews-sidenav-layout, mnews-sidenav-layout-container',
   templateUrl: './sidenav-layout.component.html',
   styleUrls: ['./sidenav-layout.component.scss'],
   encapsulation: ViewEncapsulation.None,

@@ -1,7 +1,7 @@
 {
   "dir": "ltr",
   "lang": "en",
-  "name": "angular-material-app-pwa",
+  "name": "angular6-material2-aws-sdk",
   "scope": "/",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",

@@ -1,18 +1,12 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import {
-  Component,
-  OnInit,
-  Input,
-  ViewEncapsulation,
-  ContentChild
-} from '@angular/core';
+import { Component, ContentChild, Input, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'stbui-base-layout-header',
+  selector: 'mnews-base-layout-header',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -27,7 +21,7 @@ export class BaseLayoutHeaderComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-base-layout-toolbar',
+  selector: 'mnews-base-layout-toolbar',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -41,7 +35,7 @@ export class BaseLayoutToolbarComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-base-layout-content',
+  selector: 'mnews-base-layout-content',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
@@ -55,7 +49,7 @@ export class BaseLayoutContentComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-base-layout, stbui-base-layout-container',
+  selector: 'mnews-base-layout, mnews-base-layout-container',
   templateUrl: './base-layout.component.html',
   styleUrls: ['./base-layout.component.scss'],
   encapsulation: ViewEncapsulation.None,

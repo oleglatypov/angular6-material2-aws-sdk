@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-error',
@@ -15,13 +15,13 @@ export class ErrorComponent implements OnInit {
       "status": "open",
       "name": null,
       "type": "resourceError",
-      "src": "https://stbui.com/img/wechat.JPG",
+      'src': 'https://mnews.com/img/wechat.JPG',
       "statusCode": 0,
       "statusText": null,
       "httpMethod": null,
       "httpUrl": null,
       "message": null,
-      "url": "https://stbui.com/2016/07/10/mesos-marathon-platform/",
+      'url': 'https://mnews.com/2016/07/10/mesos-marathon-platform/',
       "severity": null,
       "lastSeen": "2017-09-29T07:29:37.206Z",
       "numberOfOccurence": 3,
@@ -38,13 +38,13 @@ export class ErrorComponent implements OnInit {
       "status": "open",
       "name": null,
       "type": "resourceError",
-      "src": "https://stbui.com/img/wechat.JPG",
+      'src': 'https://mnews.com/img/wechat.JPG',
       "statusCode": 0,
       "statusText": null,
       "httpMethod": null,
       "httpUrl": null,
       "message": null,
-      "url": "https://stbui.com/2016/07/10/mesos-marathon-platform/",
+      'url': 'https://mnews.com/2016/07/10/mesos-marathon-platform/',
       "severity": null,
       "lastSeen": "2017-09-29T07:29:37.206Z",
       "numberOfOccurence": 3,

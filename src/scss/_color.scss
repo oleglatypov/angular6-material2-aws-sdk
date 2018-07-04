@@ -1,12 +1,12 @@
-@mixin stbui-theme-color() {
-  @each $name, $color in $stbui-theme-colors {
+@mixin mnews-theme-color() {
+  @each $name, $color in $mnews-theme-colors {
 
-    .stbui-background-#{$name} {
+    .mnews-background-#{$name} {
       color: mat-color($color, default-contrast) !important;
       background-color: mat-color($color, default) !important;
     }
 
-    .stbui-#{$name} {
+    .mnews-#{$name} {
       background-color: mat-color($color, default) !important;
     }
   }

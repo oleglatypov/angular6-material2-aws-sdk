@@ -7,7 +7,7 @@
 </a>
 <div class="navigation-children" [@slideInOut]="isOpen">
   <ng-container *ngFor="let item of item.children">
-    <stbui-nav-item *ngIf="item.type=='item'" [item]="item"></stbui-nav-item>
-    <stbui-nav-collapse *ngIf="item.type=='collapse'" [item]="item"></stbui-nav-collapse>
+    <mnews-nav-item *ngIf="item.type=='item'" [item]="item"></mnews-nav-item>
+    <mnews-nav-collapse *ngIf="item.type=='collapse'" [item]="item"></mnews-nav-collapse>
   </ng-container>
 </div>

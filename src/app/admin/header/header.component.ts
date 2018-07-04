@@ -1,9 +1,9 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as screenfull from 'screenfull';
-import { NavigationStart, NavigationEnd, Router } from '@angular/router';
+import { NavigationEnd, NavigationStart, Router } from '@angular/router';
 
 @Component({
-  selector: 'stbui-header',
+  selector: 'mnews-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

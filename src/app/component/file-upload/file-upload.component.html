@@ -1,13 +1,13 @@
-<div class="stbui-upload-container">
-  <div class="stbui-upload-select" *ngIf="!previewUrl">
-    <mat-icon class="stbui-upload-icon">add</mat-icon>
-    <div class="stbui-upload-text">Upload</div>
-    <div class="stbui-upload-inner">
-      <input type="file" class="stbui-upload-input" (change)="onFileSelect($event)">
+<div class="mnews-upload-container">
+  <div class="mnews-upload-select" *ngIf="!previewUrl">
+    <mat-icon class="mnews-upload-icon">add</mat-icon>
+    <div class="mnews-upload-text">Upload</div>
+    <div class="mnews-upload-inner">
+      <input type="file" class="mnews-upload-input" (change)="onFileSelect($event)">
     </div>
   </div>
 
-  <div class="stbui-upload-preview" (click)="removePreview()" *ngIf="previewUrl">
+  <div class="mnews-upload-preview" (click)="removePreview()" *ngIf="previewUrl">
     <img [src]="this.previewUrl" />
   </div>
 

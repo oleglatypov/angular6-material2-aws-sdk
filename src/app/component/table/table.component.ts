@@ -1,14 +1,12 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Component, OnInit } from '@angular/core';
-import { Input, Output, EventEmitter } from '@angular/core';
-import { ElementRef, ViewChild, Renderer2 } from '@angular/core';
+import { Component, ElementRef, EventEmitter, Input, OnInit, Output, Renderer2, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'stbui-table',
+  selector: 'mnews-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })

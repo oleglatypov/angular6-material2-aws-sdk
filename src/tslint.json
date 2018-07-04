@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-          "stbui",
+          "mnews",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-          "stbui",
+          "mnews",
             "kebab-case"
         ]
     }

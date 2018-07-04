@@ -1,17 +1,14 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { Injectable } from '@angular/core';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
-import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
-import {
-  AngularFireStorage,
-  AngularFireUploadTask
-} from 'angularfire2/storage';
+import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireStorage, AngularFireUploadTask } from 'angularfire2/storage';
 import { Observable } from 'rxjs';
-import { map, tap, finalize } from 'rxjs/operators';
+import { finalize, tap } from 'rxjs/operators';
 import { FileUploadRef } from './file-upload.ref';
 
 @Injectable({

@@ -1,12 +1,12 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { ViewContainerRef, InjectionToken } from '@angular/core';
+import { InjectionToken, ViewContainerRef } from '@angular/core';
 import { Direction } from '@angular/cdk/bidi';
 
-export const STBUI_NOTIFICATION_DATA = new InjectionToken<any>('StbuiNonticationData');
+export const mnews_NOTIFICATION_DATA = new InjectionToken<any>('mnewsNonticationData');
 
 export type HorizontalPosition = 'start' | 'center' | 'end' | 'left' | 'right';
 export type VerticalPosition = 'top' | 'bottom';

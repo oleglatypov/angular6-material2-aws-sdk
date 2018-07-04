@@ -17,8 +17,8 @@ $theme: mat-light-theme($primary, $accent, $warn);
 @import "scss/index";
 @import "scss/app-theme";
 @include angular-material-theme($theme);
-@include stbui-app-theme($theme)
-@include stbui-theme-color();
+@include mnews-app-theme($theme)
+@include mnews-theme-color();
 
 
 html, body {

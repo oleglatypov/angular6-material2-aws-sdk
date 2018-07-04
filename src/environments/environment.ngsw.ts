@@ -3,17 +3,17 @@ export const environment = {
   ngsw: true,
   firebase: {
     apiKey: 'AIzaSyAGcYsQtc9xqqEKstnoO3WasuZxJmKTwNc',
-    authDomain: 'angular-material-app-stbui.firebaseapp.com',
-    databaseURL: 'https://angular-material-app-stbui.firebaseio.com',
-    projectId: 'angular-material-app-stbui',
-    storageBucket: 'angular-material-app-stbui.appspot.com',
+    authDomain: 'angular6-material2-aws-sdk-mnews.firebaseapp.com',
+    databaseURL: 'https://angular6-material2-aws-sdk-mnews.firebaseio.com',
+    projectId: 'angular6-material2-aws-sdk-mnews',
+    storageBucket: 'angular6-material2-aws-sdk-mnews.appspot.com',
     messagingSenderId: '974351057659'
   },
-  navigationApi: '/angular-material-app/assets/data/navigation',
-  todoApi: '/angular-material-app/assets/data/todo/list.json',
-  mailApi: '/angular-material-app/assets/data/mail/list.json',
-  chatsApi: '/angular-material-app/assets/data/chats/list.json',
-  analysisApi: '/angular-material-app/assets/data/analysis',
-  crmApi: '/angular-material-app/assets/data/crm',
-  tableApi: '/angular-material-app/assets/data/table'
+  navigationApi: '/angular6-material2-aws-sdk/assets/data/navigation',
+  todoApi: '/angular6-material2-aws-sdk/assets/data/todo/list.json',
+  mailApi: '/angular6-material2-aws-sdk/assets/data/mail/list.json',
+  chatsApi: '/angular6-material2-aws-sdk/assets/data/chats/list.json',
+  analysisApi: '/angular6-material2-aws-sdk/assets/data/analysis',
+  crmApi: '/angular6-material2-aws-sdk/assets/data/crm',
+  tableApi: '/angular6-material2-aws-sdk/assets/data/table'
 };

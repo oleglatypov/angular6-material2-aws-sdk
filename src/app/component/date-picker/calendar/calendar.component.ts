@@ -1,19 +1,13 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import {
-  Component,
-  Input,
-  Output,
-  EventEmitter,
-  ViewEncapsulation
-} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
 import * as dateUtils from '../dateUtils';
 
 @Component({
-  selector: 'stbui-calendar',
+  selector: 'mnews-calendar',
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.scss'],
   encapsulation: ViewEncapsulation.None

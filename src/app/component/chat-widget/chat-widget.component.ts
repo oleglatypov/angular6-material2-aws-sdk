@@ -1,9 +1,9 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 const randomMessages = [
   '没事的时候，打打工，不为赚钱，只为锻炼自己。',
@@ -22,7 +22,7 @@ const randomMessages = [
 const rand = max => Math.floor(Math.random() * max);
 const getRandomMessage = () => randomMessages[rand(randomMessages.length)];
 @Component({
-  selector: 'stbui-chat-widget',
+  selector: 'mnews-chat-widget',
   templateUrl: './chat-widget.component.html',
   styleUrls: ['./chat-widget.component.scss']
 })
@@ -33,7 +33,7 @@ export class ChatWidgetComponent implements OnInit {
   visible = false;
 
   operator = {
-    name: 'Stbui',
+    name: 'mnews',
     status: 'online',
     avatar: `https://randomuser.me/api/portraits/women/${rand(100)}.jpg`
   };

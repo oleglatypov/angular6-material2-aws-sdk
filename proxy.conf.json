@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://api.stbui.com",
+    "target": "http://api.oleglatypov.com",
     "secure": false
   }
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'stbui-chart-radar',
+  selector: 'mnews-chart-radar',
   templateUrl: './radar.component.html',
   styleUrls: ['./radar.component.scss']
 })

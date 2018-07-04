@@ -1,10 +1,11 @@
 <div class="stb-calendar" [class.stb-calendar-landspace]="mode">
 
-  <stbui-date-display [selectedDate]="selectedDate"></stbui-date-display>
+  <mnews-date-display [selectedDate]="selectedDate"></mnews-date-display>
 
   <div class="stb-calendar-container">
     <div class="stb-calendar-monthday-container">
-      <stbui-calendar-toolbar [displayDates]="displayDates" (monthChange)="onMonthChange($event)"></stbui-calendar-toolbar>
+      <mnews-calendar-toolbar [displayDates]="displayDates"
+                              (monthChange)="onMonthChange($event)"></mnews-calendar-toolbar>
 
       <div class="stb-calendar-week">
         <span class="stb-calendar-week-day">一</span>
@@ -18,7 +19,8 @@
 
       <div class="stb-calendar-monthday">
         <div class="stb-calendar-monthday-slide">
-          <stbui-calendar-month (selectValueChange)="onSelectValueChange($event)" [displayDate]="displayDate" *ngFor="let displayDate of displayDates"></stbui-calendar-month>
+          <mnews-calendar-month (selectValueChange)="onSelectValueChange($event)" [displayDate]="displayDate"
+                                *ngFor="let displayDate of displayDates"></mnews-calendar-month>
         </div>
       </div>
 

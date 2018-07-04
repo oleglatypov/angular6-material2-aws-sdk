@@ -4,15 +4,15 @@
     <mat-sidenav-container>
         <mat-sidenav class="sidenav" [position]="position" opened="true" mode="side" #sidenav>
             <div class="content">
-                <ng-content select="stbui-sidenav-layout-side"></ng-content>
+              <ng-content select="mnews-sidenav-layout-side"></ng-content>
             </div>
         </mat-sidenav>
 
         <div class="sidenav-layout-wrapper">
-            <ng-content select="stbui-sidenav-layout-header"></ng-content>
+          <ng-content select="mnews-sidenav-layout-header"></ng-content>
 
             <div class="sidenav-layout-card">
-                <ng-content select="stbui-sidenav-layout-toolbar"></ng-content>
+              <ng-content select="mnews-sidenav-layout-toolbar"></ng-content>
                 <div class="sidenav-layout-content">
                     <ng-content></ng-content>
                 </div>

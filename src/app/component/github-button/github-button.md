@@ -1,10 +1,10 @@
 ### Basic
 ```
-<stbui-github-button></stbui-github-button>
+<mnews-github-button></mnews-github-button>
 ```
 
 ```
-<stbui-github-button user="stbui" repo="angular-materila-app" type="start"></stbui-github-button>
+<mnews-github-button user="mnews" repo="angular-materila-app" type="start"></mnews-github-button>
 ```
 * user: 用户
 * repo: 仓库
@@ -12,11 +12,11 @@
 
 ### Type
 ```
-<stbui-github-button type="link|watch|star|issue|fork|download"></stbui-github-button>
-<stbui-github-button type="link"></stbui-github-button>
-<stbui-github-button type="watch"></stbui-github-button>
-<stbui-github-button type="start"></stbui-github-button>
-<stbui-github-button type="issue"></stbui-github-button>
-<stbui-github-button type="fork"></stbui-github-button>
-<stbui-github-button type="download"></stbui-github-button>
+<mnews-github-button type="link|watch|star|issue|fork|download"></mnews-github-button>
+<mnews-github-button type="link"></mnews-github-button>
+<mnews-github-button type="watch"></mnews-github-button>
+<mnews-github-button type="start"></mnews-github-button>
+<mnews-github-button type="issue"></mnews-github-button>
+<mnews-github-button type="fork"></mnews-github-button>
+<mnews-github-button type="download"></mnews-github-button>
 ```

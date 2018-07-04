@@ -1,29 +1,14 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import {
-  Directive,
-  Input,
-  ElementRef,
-  AfterViewInit,
-  OnDestroy
-} from '@angular/core';
-import { ViewContainerRef, TemplateRef } from '@angular/core';
-import { ComponentPortal, TemplatePortal } from '@angular/cdk/portal';
-import {
-  Overlay,
-  OverlayConfig,
-  OverlayRef,
-  ConnectedPositionStrategy,
-  HorizontalConnectionPos,
-  VerticalConnectionPos
-} from '@angular/cdk/overlay';
-import { PopoverComponent } from './popover.component';
+import { AfterViewInit, Directive, ElementRef, Input, OnDestroy, ViewContainerRef } from '@angular/core';
+import { TemplatePortal } from '@angular/cdk/portal';
+import { HorizontalConnectionPos, Overlay, OverlayConfig, OverlayRef, VerticalConnectionPos } from '@angular/cdk/overlay';
 
 @Directive({
-  selector: '[stbuiPopover],[popoverTriggerFor]',
+  selector: '[mnewsPopover],[popoverTriggerFor]',
   host: {
     '(click)': 'togglePopover()'
   },
@@ -147,7 +132,7 @@ export class PopoverDirective implements AfterViewInit, OnDestroy {
     if (!this.popover) {
       throw new Error(`
       Example:
-        <stbui-popover #popover="stbPopover"></stbui-popover>
+        <mnews-popover #popover="stbPopover"></mnews-popover>
         <button [popoverTriggerFor]="popover"></button>
       `);
     }

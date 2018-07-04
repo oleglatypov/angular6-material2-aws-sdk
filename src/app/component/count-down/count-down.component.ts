@@ -1,8 +1,7 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { interval } from 'rxjs';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
-  selector: 'stbui-count-down',
+  selector: 'mnews-count-down',
   templateUrl: './count-down.component.html',
   styleUrls: ['./count-down.component.scss']
 })

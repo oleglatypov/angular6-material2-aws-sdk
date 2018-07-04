@@ -2,7 +2,7 @@
 @NgModule({
     imports: [
         WebsocketModule.config({
-            url: 'https://github.com/stbui'
+            url: 'https://github.com/oleglatypov'
         })
     ],
 })

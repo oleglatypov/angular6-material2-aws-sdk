@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'stbui-chart-bar',
+  selector: 'mnews-chart-bar',
   templateUrl: './bar.component.html',
   styleUrls: ['./bar.component.scss']
 })

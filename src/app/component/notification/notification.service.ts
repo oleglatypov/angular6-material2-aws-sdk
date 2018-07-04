@@ -1,28 +1,28 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import {
   ComponentRef,
-  Injectable,
-  Injector,
+  EmbeddedViewRef,
   Inject,
+  Injectable,
+  InjectionToken,
+  Injector,
   Optional,
   SkipSelf,
-  InjectionToken,
-  TemplateRef,
-  EmbeddedViewRef
+  TemplateRef
 } from '@angular/core';
 import { Overlay, OverlayConfig, OverlayRef } from '@angular/cdk/overlay';
-import { ComponentPortal, TemplatePortal, ComponentType, PortalInjector } from '@angular/cdk/portal';
+import { ComponentPortal, ComponentType, PortalInjector, TemplatePortal } from '@angular/cdk/portal';
 
-import { STBUI_NOTIFICATION_DATA, NotificationConfig } from './notification.config';
+import { mnews_NOTIFICATION_DATA, NotificationConfig } from './notification.config';
 import { NotificationRef } from './notification.ref';
 import { NotificationComponent } from './notification.component';
 import { NotificationContainer } from './notification-container';
 
-export const STBUI_NOTIFICATION_DEFAULT_OPTIONS = new InjectionToken<NotificationConfig>('notification-default-options');
+export const mnews_NOTIFICATION_DEFAULT_OPTIONS = new InjectionToken<NotificationConfig>('notification-default-options');
 
 @Injectable()
 export class NotificationService {
@@ -31,7 +31,7 @@ export class NotificationService {
     private _injector: Injector,
     private _overlay: Overlay,
     @Optional() @SkipSelf() private _parentNotication: NotificationService,
-    @Inject(STBUI_NOTIFICATION_DEFAULT_OPTIONS) private _defaultConfig: NotificationConfig) {
+    @Inject(mnews_NOTIFICATION_DEFAULT_OPTIONS) private _defaultConfig: NotificationConfig) {
   }
 
   private _notificationRefAtThisLevel: NotificationRef<any> | null = null;
@@ -174,7 +174,7 @@ export class NotificationService {
     const injectionTokens = new WeakMap();
 
     injectionTokens.set(NotificationRef, notificationRef);
-    injectionTokens.set(STBUI_NOTIFICATION_DATA, config.data);
+    injectionTokens.set(mnews_NOTIFICATION_DATA, config.data);
 
     return new PortalInjector(userInjector || this._injector, injectionTokens);
   }

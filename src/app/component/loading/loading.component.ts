@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'stbui-loading',
+  selector: 'mnews-loading',
   templateUrl: './loading.component.html',
   styleUrls: ['./loading.component.scss']
 })

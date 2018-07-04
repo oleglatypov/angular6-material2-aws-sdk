@@ -1,8 +1,8 @@
 {
   "index": "/index.html",
   "appData": {
-    "name": "angular-material-app-pwa",
-    "description": "pwa"
+    "name": "angular6-material2-aws-sdk",
+    "description": "angular6 material2 aws-sdk"
   },
   "assetGroups": [
     {
@@ -35,7 +35,7 @@
     {
       "name": "api-freshness",
       "urls": [
-        "/stbui"
+        "/mnews"
       ],
       "cacheConfig": {
         "strategy": "freshness",

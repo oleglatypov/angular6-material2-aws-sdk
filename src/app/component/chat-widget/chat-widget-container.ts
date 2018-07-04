@@ -1,31 +1,26 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
- import {
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
   Component,
   ComponentRef,
-  EmbeddedViewRef,
-  ViewChild,
   ElementRef,
-  ChangeDetectorRef,
+  EmbeddedViewRef,
+  EventEmitter,
   OnDestroy,
-  ChangeDetectionStrategy,
-  EventEmitter
+  ViewChild
 } from '@angular/core';
-import {AnimationEvent} from '@angular/animations';
-import {
-  BasePortalOutlet,
-  ComponentPortal,
-  TemplatePortal,
-  CdkPortalOutlet
-} from '@angular/cdk/portal';
+import { AnimationEvent } from '@angular/animations';
+import { BasePortalOutlet, CdkPortalOutlet, ComponentPortal, TemplatePortal } from '@angular/cdk/portal';
 import { ChatWidgetAnimations } from './chat-widget.animation';
 
 @Component({
   moduleId: module.id,
-  selector: 'stbui-chat-widget-container',
+  selector: 'mnews-chat-widget-container',
   templateUrl: 'chat-widget-container.html',
   styleUrls: ['chat-widget-container.scss'],
   animations: [ChatWidgetAnimations.chatWidgetState],

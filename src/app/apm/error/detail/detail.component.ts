@@ -1,7 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'error-detail,stbui-error-detail,stb-error-detail',
+  selector: 'error-detail,mnews-error-detail,stb-error-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.scss'],
 })

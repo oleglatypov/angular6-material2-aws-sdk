@@ -2,14 +2,14 @@
   <div class="navigation-scrollbar-container">
     <perfect-scrollbar>
       <ng-container *ngFor="let navigation of navigationModel">
-        <stbui-nav-collapse *ngIf="navigation.type == 'collapse'" [item]="navigation"></stbui-nav-collapse>
-        <stbui-nav-item *ngIf="navigation.type=='item'" [item]="navigation"></stbui-nav-item>
+        <mnews-nav-collapse *ngIf="navigation.type == 'collapse'" [item]="navigation"></mnews-nav-collapse>
+        <mnews-nav-item *ngIf="navigation.type=='item'" [item]="navigation"></mnews-nav-item>
       </ng-container>
     </perfect-scrollbar>
   </div>
 
   <div class="navigation-footer">
-    <a matRipple href="https://github.com/stbui/angular-material-app/issues" target="blank">
+    <a matRipple href="https://github.com/oleglatypov/angular6-material2-aws-sdk/issues" target="blank">
       <mat-icon>help</mat-icon>
       帮助与支持</a>
   </div>

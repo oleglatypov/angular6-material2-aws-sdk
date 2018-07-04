@@ -1,12 +1,12 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'stbui-date-display',
+  selector: 'mnews-date-display',
   templateUrl: './date-display.component.html',
   styleUrls: ['./date-display.component.scss'],
   encapsulation: ViewEncapsulation.None

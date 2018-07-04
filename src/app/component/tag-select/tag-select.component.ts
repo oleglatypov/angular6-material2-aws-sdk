@@ -1,7 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'stbui-tag-select',
+  selector: 'mnews-tag-select',
   templateUrl: './tag-select.component.html',
   styleUrls: ['./tag-select.component.scss']
 })

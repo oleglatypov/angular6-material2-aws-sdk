@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'stbui-widget-state,stb-widget-state',
+  selector: 'mnews-widget-state,stb-widget-state',
   templateUrl: './state.component.html',
   styleUrls: ['./state.component.scss']
 })

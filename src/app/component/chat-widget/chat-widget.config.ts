@@ -1,13 +1,13 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { ViewContainerRef, InjectionToken } from '@angular/core';
+import { InjectionToken, ViewContainerRef } from '@angular/core';
 import { Direction } from '@angular/cdk/bidi';
 
-export const STBUI_CHATWIDGET_DATA = new InjectionToken<any>(
-  'StbuiChatWidgetData'
+export const mnews_CHATWIDGET_DATA = new InjectionToken<any>(
+  'mnewsChatWidgetData'
 );
 
 export type ChatWidgetHorizontalPosition = 'start' | 'center' | 'end' | 'left' | 'right';

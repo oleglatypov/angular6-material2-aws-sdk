@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'stbui-footer',
+  selector: 'mnews-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })

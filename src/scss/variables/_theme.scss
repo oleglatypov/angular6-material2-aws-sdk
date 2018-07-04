@@ -1,19 +1,19 @@
 @import '~@angular/material/theming';
 
-$stbui-white: (
+$mnews-white: (
   500: white,
   contrast: (
     500: $black-87-opacity
   )
 );
-$stbui-black: (
+$mnews-black: (
   500: black,
   contrast: (
     //500: white
     500: $white-87-opacity
   )
 );
-$stbui-dark: (
+$mnews-dark: (
   50: #ECECEE,
   100: #C5C6CB,
   200: #9EA1A9,
@@ -46,7 +46,7 @@ $stbui-dark: (
   )
 );
 
-$stbui-material: (
+$mnews-material: (
   500: #263238,
   contrast: (
     500: #80CBC4,
@@ -76,12 +76,12 @@ $deep-orange: mat-palette($mat-deep-orange);
 $brown: mat-palette($mat-brown);
 $grey: mat-palette($mat-grey);
 $blue-grey: mat-palette($mat-blue-grey);
-$white: mat-palette($stbui-white);
-$black: mat-palette($stbui-black);
-$dark: mat-palette($stbui-dark);
-$material: mat-palette($stbui-material);
+$white: mat-palette($mnews-white);
+$black: mat-palette($mnews-black);
+$dark: mat-palette($mnews-dark);
+$material: mat-palette($mnews-material);
 
-$stbui-theme-colors: (
+$mnews-theme-colors: (
   primary: $primary,
   accent: $accent,
   warn: $warn,

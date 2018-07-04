@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { NgModule } from '@angular/core';
@@ -9,13 +9,13 @@ import { OverlayModule } from '@angular/cdk/overlay';
 import { PortalModule } from '@angular/cdk/portal';
 import { NotificationComponent } from './notification.component';
 import { NotificationContainer } from './notification-container';
-import { NotificationService, STBUI_NOTIFICATION_DEFAULT_OPTIONS } from './notification.service';
+import { mnews_NOTIFICATION_DEFAULT_OPTIONS, NotificationService } from './notification.service';
 import { NotificationConfig } from './notification.config';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 
-export function STBUI_NOTIFICATION_DEFAULT_OPTIONS_PROVIDER_FACTORY() {
+export function mnews_NOTIFICATION_DEFAULT_OPTIONS_PROVIDER_FACTORY() {
   return new NotificationConfig();
 }
 
@@ -25,8 +25,8 @@ export function STBUI_NOTIFICATION_DEFAULT_OPTIONS_PROVIDER_FACTORY() {
   declarations: [NotificationContainer, NotificationComponent],
   entryComponents: [NotificationContainer, NotificationComponent],
   providers: [NotificationService, {
-    provide: STBUI_NOTIFICATION_DEFAULT_OPTIONS,
-    useFactory: STBUI_NOTIFICATION_DEFAULT_OPTIONS_PROVIDER_FACTORY
+    provide: mnews_NOTIFICATION_DEFAULT_OPTIONS,
+    useFactory: mnews_NOTIFICATION_DEFAULT_OPTIONS_PROVIDER_FACTORY
   }]
 })
 export class NotificaitonModule {

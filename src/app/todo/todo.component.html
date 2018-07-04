@@ -1,12 +1,12 @@
-<stbui-layout>
+<mnews-layout>
 
-  <stbui-layout-header>
-    <stbui-search class="search" placeholder="搜索..."></stbui-search>
-  </stbui-layout-header>
+  <mnews-layout-header>
+    <mnews-search class="search" placeholder="搜索..."></mnews-search>
+  </mnews-layout-header>
 
-  <stbui-layout-sidenav>
+  <mnews-layout-sidenav>
     <app-todo-sidenav></app-todo-sidenav>
-  </stbui-layout-sidenav>
+  </mnews-layout-sidenav>
 
   <app-todo-toolbar></app-todo-toolbar>
 
@@ -14,4 +14,4 @@
     <app-todo-item *ngFor="let todo of todos" [todo]="todo"></app-todo-item>
   </app-todo-list>
 
-</stbui-layout>
+</mnews-layout>

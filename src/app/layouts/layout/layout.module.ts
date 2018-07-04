@@ -1,17 +1,13 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
- * https://github.com/stbui
+ * Copyright mnews All Rights Reserved.
+ * https://github.com/oleglatypov
  */
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import {
-  LayoutComponent,
-  LayoutHeaderComponent,
-  LayoutSidenavComponent
-} from './layout.component';
+import { LayoutComponent, LayoutHeaderComponent, LayoutSidenavComponent } from './layout.component';
 
 @NgModule({
   imports: [CommonModule, MatSidenavModule],

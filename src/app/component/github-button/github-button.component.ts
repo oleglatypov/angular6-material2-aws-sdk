@@ -1,8 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'stbui-github-button',
+  selector: 'mnews-github-button',
   templateUrl: './github-button.component.html',
   styleUrls: ['./github-button.component.scss']
 })
@@ -20,8 +20,8 @@ export class GithubButtonComponent implements OnInit {
     return this._type;
   }
 
-  @Input() user: string = 'stbui';
-  @Input() repo: string = 'angular-material-app';
+  @Input() user: string = 'mnews';
+  @Input() repo: string = 'angular6-material2-aws-sdk';
 
   readonly baseApi: string = 'https://api.github.com/repos';
   readonly baseUrl: string = 'https://github.com';

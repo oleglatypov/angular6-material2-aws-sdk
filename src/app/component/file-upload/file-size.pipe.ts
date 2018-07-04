@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { Pipe, PipeTransform } from '@angular/core';

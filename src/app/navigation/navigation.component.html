@@ -1,7 +1,7 @@
 <div fxLayout="column">
   <mat-card>
     <mat-card-content>
-      <stbui-tag-select [tags]="categories" (selectedTagChange)="selectedTagChange($event)"></stbui-tag-select>
+      <mnews-tag-select [tags]="categories" (selectedTagChange)="selectedTagChange($event)"></mnews-tag-select>
     </mat-card-content>
   </mat-card>
 </div>
@@ -9,7 +9,7 @@
 
 <div fxLayout="row wrap">
   <div fxFlex="100" fxFlex.gt-md="20" fxFlex.gt-sm="33.3" fxFlex.gt-xs="50" *ngFor="let navigation of currentNum">
-    <stbui-loading-skeleton></stbui-loading-skeleton>
+    <mnews-loading-skeleton></mnews-loading-skeleton>
   </div>
 
   <div fxFlex="100" fxFlex.gt-md="20" fxFlex.gt-sm="33.3" fxFlex.gt-xs="50" *ngFor="let list of lists">

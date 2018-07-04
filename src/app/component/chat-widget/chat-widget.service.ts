@@ -1,26 +1,13 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
- import {
-  Injectable,
-  ComponentRef,
-  TemplateRef,
-  Injector,
-  EmbeddedViewRef,
-  Optional,
-  SkipSelf
-} from '@angular/core';
-import {
-  ComponentPortal,
-  ComponentType,
-  PortalInjector,
-  TemplatePortal
-} from '@angular/cdk/portal';
-import { Overlay, OverlayRef, OverlayConfig } from '@angular/cdk/overlay';
+import { ComponentRef, EmbeddedViewRef, Injectable, Injector, Optional, SkipSelf, TemplateRef } from '@angular/core';
+import { ComponentPortal, ComponentType, PortalInjector, TemplatePortal } from '@angular/cdk/portal';
+import { Overlay, OverlayConfig, OverlayRef } from '@angular/cdk/overlay';
 
-import { ChatWidgetConfig, STBUI_CHATWIDGET_DATA } from './chat-widget.config';
+import { ChatWidgetConfig, mnews_CHATWIDGET_DATA } from './chat-widget.config';
 import { ChatWidgetContainer } from './chat-widget-container';
 import { ChatWidgetComponent } from './chat-widget.component';
 import { ChatWidgetRef } from './chat-widget.ref';
@@ -142,7 +129,7 @@ export class ChatWidgetService {
     const injectionTokens = new WeakMap();
 
     injectionTokens.set(notificationRef, notificationRef);
-    injectionTokens.set(STBUI_CHATWIDGET_DATA, config.data);
+    injectionTokens.set(mnews_CHATWIDGET_DATA, config.data);
 
     return new PortalInjector(userInjector || this.injector, injectionTokens);
   }

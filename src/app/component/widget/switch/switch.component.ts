@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'stbui-widget-switch,stb-widget-switch',
+  selector: 'mnews-widget-switch,stb-widget-switch',
   templateUrl: './switch.component.html',
   styleUrls: ['./switch.component.scss']
 })

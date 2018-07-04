@@ -2,7 +2,7 @@
   <mat-card-title>Date Pick 日期选择器</mat-card-title>
   <mat-card-subtitle>默认</mat-card-subtitle>
   <mat-card-content>
-    <stbui-date-picker></stbui-date-picker>
+    <mnews-date-picker></mnews-date-picker>
   </mat-card-content>
 </mat-card>
 
@@ -10,7 +10,7 @@
   <mat-card-title>Date Pick 日期选择器</mat-card-title>
   <mat-card-subtitle>显示方式</mat-card-subtitle>
   <mat-card-content>
-    <stbui-date-picker mode="landscape"></stbui-date-picker>
+    <mnews-date-picker mode="landscape"></mnews-date-picker>
   </mat-card-content>
 </mat-card>
 
@@ -19,7 +19,8 @@
   <mat-card-title>Date Pick 日期选择器</mat-card-title>
   <mat-card-subtitle>事件</mat-card-subtitle>
   <mat-card-content>
-    <stbui-date-picker action="true" (onConfirm)="onConfirm($event)" (selectValueChange)="onSelectValueChange($event)"></stbui-date-picker>
+    <mnews-date-picker action="true" (onConfirm)="onConfirm($event)"
+                       (selectValueChange)="onSelectValueChange($event)"></mnews-date-picker>
     <p>{{result}}</p>
   </mat-card-content>
 </mat-card>

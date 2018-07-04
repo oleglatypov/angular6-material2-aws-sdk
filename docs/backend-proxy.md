@@ -18,7 +18,7 @@ google 浏览器桌面快捷方式后面加上(空一格，再加上)
 ```
 {
   "/api": {
-    "target": "http://api.stbui.com",
+    "target": "http://api.mnews.com",
     "secure": false
   }
 }

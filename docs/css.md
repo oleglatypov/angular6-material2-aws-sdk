@@ -5,32 +5,32 @@
 > 内置主题:
 
 ```
-stbui-background-primary
-stbui-background-accent
-stbui-background-warn
-stbui-background-red
-stbui-background-pink
-stbui-background-purple
-stbui-background-deep-purple
-stbui-background-indigo
-stbui-background-blue
-stbui-background-light-blue
-stbui-background-cyan
-stbui-background-teal
-stbui-background-green
-stbui-background-light-green
-stbui-background-lime
-stbui-background-yellow
-stbui-background-amber
-stbui-background-orange
-stbui-background-deep-orange
-stbui-background-brown
-stbui-background-grey
-stbui-background-blue-grey
-stbui-background-white
-stbui-background-black
-stbui-background-dark
-stbui-background-material
+mnews-background-primary
+mnews-background-accent
+mnews-background-warn
+mnews-background-red
+mnews-background-pink
+mnews-background-purple
+mnews-background-deep-purple
+mnews-background-indigo
+mnews-background-blue
+mnews-background-light-blue
+mnews-background-cyan
+mnews-background-teal
+mnews-background-green
+mnews-background-light-green
+mnews-background-lime
+mnews-background-yellow
+mnews-background-amber
+mnews-background-orange
+mnews-background-deep-orange
+mnews-background-brown
+mnews-background-grey
+mnews-background-blue-grey
+mnews-background-white
+mnews-background-black
+mnews-background-dark
+mnews-background-material
 ```
 
 > 修改默认主题:
@@ -40,10 +40,10 @@ stbui-background-material
 constructor() {
     this.defaultSettings = {
         colorClasses: {
-            header: 'stbui-background-white',
-            footer: 'stbui-background-blue',
-            brand: 'stbui-background-blue',
-            navigation: 'stbui-background-dark'
+            header: 'mnews-background-white',
+            footer: 'mnews-background-blue',
+            brand: 'mnews-background-blue',
+            navigation: 'mnews-background-dark'
         },
         layout: {
             mode: 'fullwidth',

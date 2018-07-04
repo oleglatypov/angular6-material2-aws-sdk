@@ -1,17 +1,14 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Injectable, InjectionToken, Inject } from '@angular/core';
-import { Observable, BehaviorSubject, Subject } from 'rxjs';
+import { Inject, Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
 
-import { AmapConfig, STBUI_AMAP_DATA } from './amap.config';
+import { AmapConfig } from './amap.config';
 
-import {
-  STBUI_AMAP_DEFAULT_OPTIONS,
-  STBUI_AMAP_USER_OPTIONS
-} from './amap.token';
+import { mnews_AMAP_DEFAULT_OPTIONS, mnews_AMAP_USER_OPTIONS } from './amap.token';
 
 declare var AMap: any;
 
@@ -23,8 +20,8 @@ export class AmapService {
   readonly onMap: Subject<any> = new Subject();
 
   constructor(
-    @Inject(STBUI_AMAP_DEFAULT_OPTIONS) private _defaultConfig: AmapConfig,
-    @Inject(STBUI_AMAP_USER_OPTIONS) private _userConfig: AmapConfig
+    @Inject(mnews_AMAP_DEFAULT_OPTIONS) private _defaultConfig: AmapConfig,
+    @Inject(mnews_AMAP_USER_OPTIONS) private _userConfig: AmapConfig
   ) {
     this.load();
   }

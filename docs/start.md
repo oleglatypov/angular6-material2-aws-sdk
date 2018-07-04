@@ -8,11 +8,11 @@ npm config set registry https://registry.npm.taobao.org
 
 * 3、克隆项目
 ```
-git clone --depth=1 https://github.com/stbui/angular-material-app.git
+git clone --depth=1 https://github.com/oleglatypov/angular6-material2-aws-sdk.git
 ```
 切换到项目目录
 ```
-cd angular-material-app
+cd angular6-material2-aws-sdk
 ```
 安装项目依赖并启动项目
 ```

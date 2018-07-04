@@ -1,6 +1,5 @@
-import { Component, OnInit, Inject, ViewEncapsulation } from '@angular/core';
-import { MatDialog } from '@angular/material';
-import { MAT_DIALOG_DATA } from '@angular/material';
+import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialog } from '@angular/material';
 
 @Component({
   selector: 'app-contact',
@@ -13,7 +12,7 @@ export class ContactComponent implements OnInit {
     datas: [
       {
         avatar: 'https://lh5.googleusercontent.com/-hcRNe540rco/AAAAAAAAAAI/AAAAAAAAAAk/DfS45tpAR-A/photo.jpg',
-        name: 'stbui',
+        name: 'mnews',
         phone: '15890031275',
         relation: '优质客户',
         company: 'github',

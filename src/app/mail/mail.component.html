@@ -1,10 +1,10 @@
-<stbui-layout>
+<mnews-layout>
 
-  <stbui-layout-header>
-    <stbui-search class="search" placeholder="搜索..."></stbui-search>
-  </stbui-layout-header>
+  <mnews-layout-header>
+    <mnews-search class="search" placeholder="搜索..."></mnews-search>
+  </mnews-layout-header>
 
-  <stbui-layout-sidenav>
+  <mnews-layout-sidenav>
     <div class="sidenav-content" [fxHide]="true" [fxHide.gt-md]="false">
 
       <div class="title-container">
@@ -57,7 +57,7 @@
       </mat-nav-list>
 
     </div>
-  </stbui-layout-sidenav>
+  </mnews-layout-sidenav>
 
   <app-mail-toolbar [mail]="shownMailDetail" [itemCount]="shownMails.length" (onForward)="onForward($event)"></app-mail-toolbar>
 
@@ -66,4 +66,4 @@
     <app-mail-detail *ngIf="shownMailDetail" [mail]="shownMailDetail"></app-mail-detail>
   </div>
 
-</stbui-layout>
+</mnews-layout>

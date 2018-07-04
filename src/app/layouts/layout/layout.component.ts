@@ -1,23 +1,17 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
- * https://github.com/stbui
+ * Copyright mnews All Rights Reserved.
+ * https://github.com/oleglatypov
  */
 
-import {
-  Component,
-  OnInit,
-  Input,
-  ContentChild,
-  ViewEncapsulation
-} from '@angular/core';
+import { Component, ContentChild, Input, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'stbui-layout-header',
+  selector: 'mnews-layout-header',
   template: '<ng-content></ng-content>',
   encapsulation: ViewEncapsulation.None,
   host: {
-    class: 'stbui-layout-header'
+    class: 'mnews-layout-header'
   }
 })
 export class LayoutHeaderComponent implements OnInit {
@@ -29,10 +23,10 @@ export class LayoutHeaderComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-layout-sidenav',
+  selector: 'mnews-layout-sidenav',
   template: '<ng-content></ng-content>',
   host: {
-    class: 'stbui-layout-sidenav'
+    class: 'mnews-layout-sidenav'
   }
 })
 export class LayoutSidenavComponent implements OnInit {
@@ -42,7 +36,7 @@ export class LayoutSidenavComponent implements OnInit {
 }
 
 @Component({
-  selector: 'stbui-layout',
+  selector: 'mnews-layout',
   templateUrl: './layout.component.html',
   styleUrls: ['./layout.component.scss']
 })

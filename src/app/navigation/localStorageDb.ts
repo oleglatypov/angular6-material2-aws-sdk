@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 /**
@@ -11,7 +11,7 @@ export class localStorageDb {
   private _collections: string;
   private cacheData: any = [];
   private options: object = {};
-  private prefix: string = 'stbui_';
+  private prefix: string = 'mnews_';
 
   set collections(value) {
     this._collections = this.prefix + value;
@@ -24,15 +24,15 @@ export class localStorageDb {
   constructor(name) {
     this.collections = name;
 
-    // this.add({ id: 1, name: 'stbui-1', createTime: 1234 });
-    // this.add({ id: 2, name: 'stbui-2', createTime: 1111 });
+    // this.add({ id: 1, name: 'mnews-1', createTime: 1234 });
+    // this.add({ id: 2, name: 'mnews-2', createTime: 1111 });
     // this.where({ id: 2 }).update({ name: 'test' });
-    // this.where({ id: 2, name: 'stbui-2' }).update({ name: 'test' });
+    // this.where({ id: 2, name: 'mnews-2' }).update({ name: 'test' });
     // this.where({ id: 1 }).delete();
     // this.where({ id: 2 }).delete();
-    // this.where({ id: 2, name: 'stbui-2' }).delete();
+    // this.where({ id: 2, name: 'mnews-2' }).delete();
     // this.where({ id: 1 }).find();
-    // this.where({ id: 2, name: 'stbui-2' }).find();
+    // this.where({ id: 2, name: 'mnews-2' }).find();
     // this.select();
   }
 

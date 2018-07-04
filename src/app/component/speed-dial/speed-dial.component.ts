@@ -1,17 +1,17 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import {
-  Component,
-  Input,
-  ContentChildren,
-  QueryList,
-  ViewChild,
-  ElementRef,
-  Renderer2,
   AfterContentInit,
+  Component,
+  ContentChildren,
+  ElementRef,
+  Input,
+  QueryList,
+  Renderer2,
+  ViewChild,
   ViewEncapsulation
 } from '@angular/core';
 import { MatButton } from '@angular/material/button';
@@ -20,11 +20,11 @@ export type Position = 'up' | 'down' | 'left' | 'right';
 
 @Component({
   moduleId: module.id,
-  selector: 'stbui-speed-dial',
+  selector: 'mnews-speed-dial',
   templateUrl: './speed-dial.component.html',
   styleUrls: ['./speed-dial.component.scss'],
   encapsulation: ViewEncapsulation.None,
-  exportAs: 'stbuiSpeedDial',
+  exportAs: 'mnewsSpeedDial',
   host: {
     class: 'speed-dial'
   }

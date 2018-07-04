@@ -1,7 +1,7 @@
-import { Component, HostBinding, Input, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'stbui-nav-item',
+  selector: 'mnews-nav-item',
   templateUrl: './nav-item.component.html',
   styleUrls: ['./nav-item.component.scss'],
   encapsulation: ViewEncapsulation.None

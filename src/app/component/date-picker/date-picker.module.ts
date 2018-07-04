@@ -1,15 +1,11 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {
-  MatRippleModule,
-  MatButtonModule,
-  MatIconModule
-} from '@angular/material';
+import { MatButtonModule, MatIconModule, MatRippleModule } from '@angular/material';
 import { DatePickerComponent } from './date-picker.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { DatePickerPipe } from './date-picker.pipe';

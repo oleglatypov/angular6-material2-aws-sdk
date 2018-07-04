@@ -1,10 +1,10 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
- * https://github.com/stbui
+ * Copyright mnews All Rights Reserved.
+ * https://github.com/oleglatypov
  */
 
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WebsocketService } from './websocket.service';
 import { config } from './websocket.config';

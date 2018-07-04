@@ -1,15 +1,15 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import { Component, Input, ElementRef, OnInit, OnDestroy } from '@angular/core';
+import { Component, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
 import { AmapService } from './amap.service';
 
 declare var AMap: any;
 
 @Component({
-  selector: 'stbui-amap',
+  selector: 'mnews-amap',
   templateUrl: './amap.component.html',
   styleUrls: ['./amap.component.scss']
 })

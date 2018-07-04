@@ -1,26 +1,21 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
-import {
-  Component,
-  Input,
-  Output,
-  ViewEncapsulation,
-  EventEmitter
-} from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { FileUploadService } from './file-upload.service';
 import { FirebaseService } from './firebase.service';
+
 @Component({
   moduleId: module.id,
-  selector: 'stbui-file-upload',
+  selector: 'mnews-file-upload',
   templateUrl: './file-upload.component.html',
   styleUrls: ['./file-upload.component.scss'],
   encapsulation: ViewEncapsulation.None,
   host: {
-    class: 'stbui-upload'
+    class: 'mnews-upload'
   }
 })
 export class FileUploadComponent {

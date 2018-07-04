@@ -1,7 +1,7 @@
 #Code Contribution Specification
 
-If you have any questions, please feel free to submit [issue](https://github.com/stbui/angular-material-app/issues).
-Or modify the submission directly [PR](https://github.com/stbui/angular-material-app/pulls)!
+If you have any questions, please feel free to submit [issue](https://github.com/oleglatypov/angular6-material2-aws-sdk/issues).
+Or modify the submission directly [PR](https://github.com/oleglatypov/angular6-material2-aws-sdk/pulls)!
 
 ## Submit issue
 
@@ -51,7 +51,7 @@ $ git commit -m "fix(role): role.use must xxx"
 $ git push origin branch-name
 ```
 
-Once submitted, you can create a Pull Request at [angular-material-app] (https://github.com/stbui/angular-material-app/pulls).
+Once submitted, you can create a Pull Request at [angular6-material2-aws-sdk] (https://github.com/oleglatypov/angular6-material2-aws-sdk/pulls).
 
 Since no one can guarantee how much it will be remembered after a long time, in order to facilitate the retrospective history, please provide the following information when submitting MR.
 
@@ -139,7 +139,7 @@ The `master` branch is the currently stable release, and the `next` branch is th
 - Only two versions are maintained. Unless there are security issues, the fix will only patch to the `master` and `next` branches. Other updates push the upper framework to the latest version of the stable large version.
 - Deprecation of all APIs requires a `deprecate` prompt on the current stable version and guarantees compatibility with the new version on the current stable version.
 - The `master` branch does not set the publish tag, and the upper framework is based on the semver dependency stable version.
-- The `next` branch setting tag is `next`, and the upper framework can be tested by reference to the version in development by `angular-material-app@next`.
+- The `next` branch setting tag is `next`, and the upper framework can be tested by reference to the version in development by `angular6-material2-aws-sdk@next`.
 
 ### Publishing strategy
 

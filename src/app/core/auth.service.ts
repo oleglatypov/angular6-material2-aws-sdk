@@ -29,7 +29,7 @@ export class AuthService {
   // 用户账号
   get currentUserName(): string {
     if (!this.authState) {
-      return 'Stbui';
+      return 'mnews';
     } else {
       return this.authState['displayName'] || '佚名';
     }

@@ -1,7 +1,7 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
- * https://github.com/stbui
+ * Copyright mnews All Rights Reserved.
+ * https://github.com/oleglatypov
  */
 
 import { Observable } from 'rxjs';

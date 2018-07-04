@@ -1,27 +1,22 @@
 /**
  * @license
- * Copyright Stbui All Rights Reserved.
+ * Copyright mnews All Rights Reserved.
  */
 
 import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
   Component,
   ComponentRef,
+  ElementRef,
   EmbeddedViewRef,
-  ViewChild,
   NgZone,
   OnDestroy,
-  ElementRef,
-  ChangeDetectionStrategy,
-  ViewEncapsulation,
-  ChangeDetectorRef
+  ViewChild,
+  ViewEncapsulation
 } from '@angular/core';
 import { AnimationEvent } from '@angular/animations';
-import {
-  BasePortalOutlet,
-  ComponentPortal,
-  CdkPortalOutlet,
-  TemplatePortal
-} from '@angular/cdk/portal';
+import { BasePortalOutlet, CdkPortalOutlet, ComponentPortal, TemplatePortal } from '@angular/cdk/portal';
 import { take } from 'rxjs/operators';
 import { Observable, Subject } from 'rxjs';
 
