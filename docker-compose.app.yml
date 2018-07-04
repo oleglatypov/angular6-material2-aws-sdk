@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-  colmena:
-    image: oleglatypov/angular6-material2-aws-sdk:latest
-    ports:
-      - 3000:8080
-    volumes:
-      - oleglatypov:/app/storage
